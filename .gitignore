@@ -1,0 +1,8 @@
+/bin/
+.project
+2HelloWorld/src/HelloWorld.java
+2HelloWorld/src/DataTypes.java
+2HelloWorld/src/Comments.java
+2HelloWorld/.settings/org.eclipse.jdt.core.prefs
+2HelloWorld/.gitignore
+2HelloWorld/.classpath
