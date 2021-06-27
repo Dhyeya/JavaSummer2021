@@ -53,7 +53,6 @@ public class HW3_3 {
 		 * Maximum value /uffff (65,535 inclusive)
 		 */
 		
-		
 		char h = 63;		 
 				 
 		System.out.println("Person A is " + a + " years old.");
