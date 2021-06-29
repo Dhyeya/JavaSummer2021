@@ -13,7 +13,7 @@ public class HW4_4 {
 		
 		
 		if (mathMarks > 90) {
-			System.out.println("A+");
+			mathMarks.equals("A+");
 		} else if (mathMarks > 80 && mathMarks <= 90) {
 			System.out.println("A");
 		} else if (mathMarks > 70 && mathMarks <= 80) {
