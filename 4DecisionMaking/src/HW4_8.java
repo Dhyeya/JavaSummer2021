@@ -35,7 +35,7 @@ public class HW4_8 {
 		System.out.println("Sales Tax     |           | 6%               | $" + taxTotal + "    |");
 		System.out.println("              |           |                  |          |");
 		System.out.println("---------------------------------------------------------");
-		System.out.println("Total                                        | " + totalDue + "    |");
+		System.out.println("Total                                        | $" + totalDue + "    |");
 	}
 		
 	public static int readUserIntegerInput (String aInputMsg) {
