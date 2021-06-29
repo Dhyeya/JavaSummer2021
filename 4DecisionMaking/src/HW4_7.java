@@ -12,7 +12,7 @@ public class HW4_7 {
 			System.out.println("31");
 			break;
 		case 2:
-			if (yearNum %4 == 0) {
+			if (yearNum %4 == 0 && yearNum %100 != 0) {
 				System.out.println("29");
 			} else {
 				System.out.println("28");
