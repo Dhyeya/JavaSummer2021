@@ -24,6 +24,7 @@ public class HW4_8 {
 		
 		double totalDue = totalCost + taxTotal;
 		
+		System.out.println("Dhyeya's Pizza Store");
 		System.out.println("----------------------------------------------------------------");
 		System.out.println("Item          | Quantity  | Price per Item   |  Total   |");
 		System.out.println("----------------------------------------------------------------");

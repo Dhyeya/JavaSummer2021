@@ -55,7 +55,7 @@ public class HW4_1 {
 		} if (numThreeMin < smallestNumber) {
 			smallestNumber = numThreeMin;
 		} if (numFourMin < smallestNumber) {
-			smallestNumber = numFourMax;
+			smallestNumber = numFourMin;
 		}
 			System.out.println(smallestNumber + " is the smallest");
 	}
