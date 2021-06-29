@@ -11,7 +11,7 @@ public class HW4_8 {
 	public static void main(String[] args) {		
 		
 		int cheeseQuantity = readUserIntegerInput("Enter amount of cheese pizzas:");
-		int veggieQuantity = readUserIntegerInput("Enter amount of veggie pizzas");
+		int veggieQuantity = readUserIntegerInput("Enter amount of veggie pizzas:");
 		int meatQuantity = readUserIntegerInput("Enter amount of meat pizzas:");
 		
 		int cheeseTotalCost = cheeseQuantity*10;
@@ -28,9 +28,21 @@ public class HW4_8 {
 		System.out.println("----------------------------------------------------------------");
 		System.out.println("Item          | Quantity  | Price per Item   |  Total   |");
 		System.out.println("----------------------------------------------------------------");
-		System.out.println("Cheese pizza  | " + cheeseQuantity + "         | $10" + "              | $" + cheeseTotalCost + "              |");
-		System.out.println("Veggie pizza  | " +  veggieQuantity + "         | $15" + "              | $" + veggieTotalCost + "              |");
-		System.out.println("Meat pizza    | " + meatQuantity + "         | $17" + "              | $" + meatTotalCost + "              |");
+		if (cheeseQuantity > 0) {
+			System.out.println("Cheese pizza  | " + cheeseQuantity + "         | $10" + "              | $" + cheeseTotalCost + "              |");
+		} else if (cheeseQuantity == 0) {
+			System.out.println("              |           |                  |                  |");
+		}
+		if (veggieQuantity > 0) {
+			System.out.println("Veggie pizza  | " +  veggieQuantity + "         | $15" + "              | $" + veggieTotalCost + "              |");
+		} else if (veggieQuantity == 0) {
+			System.out.println("              |           |                  |                  |");
+		}
+		if (meatQuantity > 0) {
+			System.out.println("Meat pizza    | " + meatQuantity + "         | $17" + "              | $" + meatTotalCost + "              |");
+		} else if (meatQuantity == 0) {
+			System.out.println("              |           |                  |                  |");
+		}
 		System.out.println("              |           |                  |                  |");
 		System.out.println("              |           |                  |                  |");
 		System.out.println("Sales Tax     |           | 6%               | $" + taxTotal + "            |");
