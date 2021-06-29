@@ -24,18 +24,18 @@ public class HW4_8 {
 		
 		double totalDue = totalCost + taxTotal;
 		
-		System.out.println("---------------------------------------------------------");
+		System.out.println("----------------------------------------------------------------");
 		System.out.println("Item          | Quantity  | Price per Item   |  Total   |");
-		System.out.println("---------------------------------------------------------");
-		System.out.println("Cheese pizza  | " + cheeseQuantity + "         | $10" + "              | $" + cheeseTotalCost + "      |");
-		System.out.println("Veggie pizza  | " +  veggieQuantity + "         | $15" + "              | $" + veggieTotalCost + "      |");
-		System.out.println("Meat pizza    | " + meatQuantity + "         | $17" + "              | $" + meatTotalCost + "      |");
-		System.out.println("              |           |                  |          |");
-		System.out.println("              |           |                  |          |");
-		System.out.println("Sales Tax     |           | 6%               | $" + taxTotal + "    |");
-		System.out.println("              |           |                  |          |");
-		System.out.println("---------------------------------------------------------");
-		System.out.println("Total                                        | $" + totalDue + "    |");
+		System.out.println("----------------------------------------------------------------");
+		System.out.println("Cheese pizza  | " + cheeseQuantity + "         | $10" + "              | $" + cheeseTotalCost + "              |");
+		System.out.println("Veggie pizza  | " +  veggieQuantity + "         | $15" + "              | $" + veggieTotalCost + "              |");
+		System.out.println("Meat pizza    | " + meatQuantity + "         | $17" + "              | $" + meatTotalCost + "              |");
+		System.out.println("              |           |                  |                  |");
+		System.out.println("              |           |                  |                  |");
+		System.out.println("Sales Tax     |           | 6%               | $" + taxTotal + "            |");
+		System.out.println("              |           |                  |                  |");
+		System.out.println("----------------------------------------------------------------");
+		System.out.println("Total Due                                    | $" + totalDue + "           |");
 	}
 		
 	public static int readUserIntegerInput (String aInputMsg) {
