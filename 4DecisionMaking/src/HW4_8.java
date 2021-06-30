@@ -39,7 +39,7 @@ public class HW4_8 {
 			System.out.println("              |           |                  |                  |");
 		}
 		if (meatQuantity > 0) {
-			System.out.println("Meat pizza    | " + meatQuantity + "         | $17" + "              | $" + meatTotalCost + "              |");
+			 System.out.println("Meat pizza"+ meatQuantity+ "$17"+ "$"+ meatTotalCost);
 		} else if (meatQuantity == 0) {
 			System.out.println("              |           |                  |                  |");
 		}

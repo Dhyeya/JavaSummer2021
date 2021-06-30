@@ -27,7 +27,7 @@ public class HW4_4 {
 					System.out.println("Math            | " + mathMarks + "       | " +"B+    |");
 				} else if (mathMarks > 60 && mathMarks <= 70) {
 					System.out.println("Math            | " + mathMarks + "       | " +"B     |");
-				} else if (mathMarks > 50 && mathMarks <= 60) {
+				} else if (mathMarks >= 50 && mathMarks <= 60) {
 					System.out.println("Math            | " + mathMarks + "       | " +"C     |");
 				} else if (mathMarks < 50) {
 					System.out.println("Math            | " + mathMarks + "       | " +"F     |");
@@ -41,7 +41,7 @@ public class HW4_4 {
 					System.out.println("English         | " + englishMarks + "       | " +"B+    |");
 				} else if (englishMarks > 60 && englishMarks <= 70) {
 					System.out.println("English         | " + englishMarks + "       | " +"B     |");
-				} else if (englishMarks > 50 && englishMarks <= 60) {
+				} else if (englishMarks >= 50 && englishMarks <= 60) {
 					System.out.println("English         | " + englishMarks + "       | " +"C     |");
 				} else if (englishMarks < 50) {
 					System.out.println("English         | " + englishMarks + "       | " +"F     |");
@@ -55,7 +55,7 @@ public class HW4_4 {
 					System.out.println("Latin           | " + latinMarks + "       | " +"B+    |");
 				} else if (latinMarks > 60 && latinMarks <= 70) {
 					System.out.println("Latin           | " + latinMarks + "       | " +"B     |");
-				} else if (latinMarks > 50 && latinMarks <= 60) {
+				} else if (latinMarks >= 50 && latinMarks <= 60) {
 					System.out.println("Latin           | " + latinMarks + "       | " +"C     |");
 				} else if (latinMarks < 50) {
 					System.out.println("Latin           | " + latinMarks + "       | " +"F     |");
@@ -69,7 +69,7 @@ public class HW4_4 {
 					System.out.println("Science         | " + scienceMarks + "       | " +"B+    |");
 				} else if (scienceMarks > 60 && scienceMarks <= 70) {
 					System.out.println("Science         | " + scienceMarks + "       | " +"B     |");
-				} else if (scienceMarks > 50 && scienceMarks <= 60) {
+				} else if (scienceMarks >= 50 && scienceMarks <= 60) {
 					System.out.println("Science         | " + scienceMarks + "       | " +"C     |");
 				} else if (scienceMarks < 50) {
 					System.out.println("Science         | " + scienceMarks + "       | " +"F     |");
