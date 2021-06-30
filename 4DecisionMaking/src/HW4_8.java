@@ -45,7 +45,11 @@ public class HW4_8 {
 		}
 		System.out.println("              |           |                  |                  |");
 		System.out.println("              |           |                  |                  |");
-		System.out.println("Sales Tax     |           | 6%               | $" + taxTotal + "            |");
+		if (taxTotal %2 == 1 || taxTotal %2 == 0) {
+			System.out.println("Sales Tax     |           | 6%               | $" + taxTotal + "            |");
+		} else {
+			System.out.println("Sales Tax     |           | 6%               | $" + taxTotal);
+		}
 		System.out.println("              |           |                  |                  |");
 		System.out.println("----------------------------------------------------------------");
 		System.out.println("Total Due                                    | $" + totalDue + "           |");
