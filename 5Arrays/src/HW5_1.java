@@ -9,7 +9,7 @@ public class HW5_1 {
 		num[2] = 3;
 		num[3] = 4;
 		
-		System.out.println("Integer #3 = " + num[3]);
+		System.out.println("Integer #3 = " + num[2]);
 	}
 	
 	
