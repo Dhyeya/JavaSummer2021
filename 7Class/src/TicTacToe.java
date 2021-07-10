@@ -19,9 +19,19 @@ public class TicTacToe {
 		for (index = 0; index <= 8; index++) {
 			if (index % 2 == 0) {
 				int boxPos = ReadUserInput.readUserIntegerInput("Enter your position (X):");
+				if (!arrTicTacToe[boxPos - 1].equals("")) {
+					System.out.println("Sorry, that position is taken.");
+					index--;
+					continue;
+				} 
 				arrTicTacToe[boxPos - 1] = "X";
 			} else {
 				int boxPos = ReadUserInput.readUserIntegerInput("Enter your position (O):");
+				if (!arrTicTacToe[boxPos - 1].equals("")) {
+					System.out.println("Sorry, that position is taken.");
+					index--;
+					continue;
+				} 
 				arrTicTacToe[boxPos - 1] = "O";
 			} 
 			if (!arrTicTacToe[0].equals("") && arrTicTacToe[0].equals(arrTicTacToe[1]) && arrTicTacToe[1].equals(arrTicTacToe[2])) {
