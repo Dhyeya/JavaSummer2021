@@ -25,7 +25,7 @@ public class BankApp {
 		Account accThree = new Account();
 		accThree.setAccountNumber(4526);
 		accThree.setName("Kartikeya Vinaykumar");
-		accThree.setAccountType('S');
+		accThree.setAccountType('C');
 		accThree.deposit(602);
 		accThree.withdraw(44);
 				
@@ -47,7 +47,7 @@ public class BankApp {
 		Account accFive = new Account();
 		accFive.setAccountNumber(9821);
 		accFive.setName("Oreo Garothaya");
-		accFive.setAccountType('S');
+		accFive.setAccountType('C');
 		accFive.deposit(1000);
 		accFive.withdraw(455);
 		accFive.deposit(500);
