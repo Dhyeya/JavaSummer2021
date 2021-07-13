@@ -28,7 +28,7 @@ public class BankApp {
 		accThree.setAccountType('C');
 		accThree.deposit(602);
 		accThree.withdraw(44);
-				
+		                              		
 		accThree.printActivities();
 		
 		// Account #4
@@ -53,7 +53,5 @@ public class BankApp {
 		accFive.deposit(500);
 				
 		accFive.printActivities();
-				
-		
 	}
 }
