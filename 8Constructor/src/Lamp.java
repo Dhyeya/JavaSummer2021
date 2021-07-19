@@ -1,7 +1,5 @@
 
 public class Lamp {
-	
-
 	public static void main(String[] args) {
 			boolean lampSwitch = false;
 		String powerControl = ReadUserInput.readUserStringInput("On or off?");

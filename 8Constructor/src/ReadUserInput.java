@@ -21,6 +21,11 @@ public class ReadUserInput {
 		return scanner.next();
 	}
 	
+	public static String readUserStringInputLine (String aInputMsg) {
+		System.out.print( aInputMsg + " ");
+		Scanner scanner = new Scanner(System.in);
+		return scanner.nextLine();
+	}
 	
 	public static int readUserIntegerInput (String aInputMsg) {
 		System.out.print( aInputMsg + " ");
