@@ -14,8 +14,8 @@ public class MathProblem {
 		public void generateQuestion() {
 			int rndOperator = new Random().nextInt(operators.length);
 		
-			num1 = new Random().nextInt(20);
-			num2 = new Random().nextInt(20);
+			num1 = new Random().nextInt(100);
+			num2 = new Random().nextInt(100);
 			
 			switch (rndOperator) {
 			case 0:
