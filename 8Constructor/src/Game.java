@@ -1,5 +1,6 @@
 
-public class TicTacToe {
+
+public class Game {
 	public static void main(String[] args) {
 
 		String[] arrTicTacToe = new String[9];
@@ -16,6 +17,9 @@ public class TicTacToe {
 		int index = 0;
 		boolean gameOver = false;
 
+		clearScreen();
+		printTicTacToe(arrTicTacToe);
+		
 		for (index = 0; index <= 8; index++) {
 			if (index % 2 == 0) {
 				int boxPos = ReadUserInput.readUserIntegerInput("Enter your position (X):");
@@ -55,13 +59,15 @@ public class TicTacToe {
 					System.out.println("Game over!");
 					break;
 				}
+				clearScreen();
 				printTicTacToe(arrTicTacToe);
-		}
+}
 		if (gameOver == false) {
 			System.out.println("Game over!");
 		}
 		
 	}
+	
 	public static void printTicTacToe(String[] myTicTacToe) {
 		int gridNum = 1;
 		for (gridNum = 1; gridNum <= 9; gridNum++) {
@@ -80,4 +86,11 @@ public class TicTacToe {
 			}
 		}
 	}
+	
+	public static void clearScreen() {
+		for (int i = 0; i < 50; i++) {
+			System.out.println("\n");
+		}
+	}
 }
+
